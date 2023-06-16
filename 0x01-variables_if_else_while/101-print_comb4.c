@@ -3,6 +3,7 @@
 /**
  * main - main block
  * Description: Print all possible different combinations of 3 digits
+ * Return: 0
  */
 int main(void)
 {
