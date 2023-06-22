@@ -1,1 +1,1 @@
-readme file for more_fuctions_nested_loops
+readme file for more_functions_nested_loops in c
