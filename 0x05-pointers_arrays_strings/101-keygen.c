@@ -13,9 +13,9 @@ int main(void)
 {
 	int ascii = 2782, x = 0, i, random;
 	char pass[100];
-	time_t time;
+	time_t t;
 
-	srand((int) time(&time));
+	srand((int) time(&t));
 	while (ascii > 126)
 	{
 		random = rand() % 126;
