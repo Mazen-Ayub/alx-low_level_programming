@@ -14,7 +14,7 @@ int _atoi(char *s)
 	int x = 0;
 	unsigned int rest = 0;
 
-	while (!(s[x] <= '9' &&  s[x] >= '0') && s[x] != '0')
+	while (!(s[x] <= '9' && s[x] >= '0') && s[x] != '0')
 	{
 		if (s[x] == '-')
 		{
