@@ -1,25 +1,22 @@
 #include "main.h"
 
 /**
- * print_square - Print square in the terminal
- * @n : The number of lines '#' characters that use per row and column
- * Return: Void
+ * print_square - prints hashes squares.
+ * @size: size of the square.
+ * Return: no return.
  */
-
-void print_square(int n)
+void print_square(int size)
 {
-	int a, b;
+	int i, j;
 
-	for (b = 0; b < n; b++)
+	for (i = 0; i < size; i++)
 	{
-		for (a = 0; a < n; a++)
+		for (j = 0; j < size; j++)
 		{
-			_putchar('#');
+			_putchar(35);
 		}
-		_putchar('\n');
+		if (i != size - 1)
+			_putchar('\n');
 	}
-	if (n <= 0)
-	{
-		_putchar('\n');
-	}
+	_putchar('\n');
 }
