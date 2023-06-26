@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	int ascii = 2782, x = 0, i, random;
+	int ascii = 2772, x = 0, i, random;
 	char pass[100];
 	time_t t;
 
