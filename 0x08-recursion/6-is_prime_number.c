@@ -17,7 +17,7 @@ int is_prime_number(int n)
 
 /**
  * real_prime - a function that calculates if a number is prime recursively
- * @n: the number will be evaluated
+ * @x: the number will be evaluated
  * @i: the iterator no.
  * Return: (1) if n is prime no., (0) if not prime no.
  */
