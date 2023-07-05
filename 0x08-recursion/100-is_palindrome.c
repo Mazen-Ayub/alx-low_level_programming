@@ -18,7 +18,7 @@ int _strlen_recursion(char *i)
 /**
  * p - palindrome
  * @s: the pointer to string
- * @l: the position
+ * @pos: the position
  * Return: 0
  */
 
