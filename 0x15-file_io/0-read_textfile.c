@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * read_textfile -fun that reads a text file and prints it to the standard outp
- * @filename: the name of the file to be read
- * @letters: the number of letters to read and print
+ * read_textfile - a fun that reads a text file and prints it to the standard
+ * @filename: name of the file to be read
+ * @letters: number of letters to read and print
  * Return: the number of letters printed, or 0 if it failed
  */
 
